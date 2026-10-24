@@ -4,22 +4,39 @@ A fullstack application for student project submission and mentor review dashboa
 
 ---
 
+## 🔗 Live Deployments
+
+* 🌐 **Live Frontend Application:** [https://project-pulse-client.vercel.app/](https://project-pulse-client.vercel.app/)
+* ⚙️ **Live Backend Server API:** [https://project-pulse-server.vercel.app/](https://project-pulse-server.vercel.app/)
+
+---
+
+
+## 📖 Module Documentation (Quick Links)
+
+Detailed documentation for individual modules:
+
+* 🎨 **[Frontend / Client Documentation](./client/README.md)** - Features, RBAC, Admin/Mentor/Student portals, Zod validation, and UI setup.
+* ⚙️ **[Backend / Server Documentation](./server/README.md)** - REST API endpoints, Prisma schema, JWT authentication, rate limiting, and architecture blueprint.
+
+---
+
 ## 📁 Repository Structure
 
 ```text
 Project-Puls/
-├── client/                     # Next.js 15 Frontend (App Router, Tailwind CSS, TypeScript)
+├── client/                     # Next.js 15 Frontend ➔ [View Client README](./client/README.md)
 │   ├── src/
 │   ├── package.json
 │   ├── vercel.json
-│   └── .env.example
-├── server/                     # Express & Prisma Backend (TypeScript, PostgreSQL)
+│   └── README.md
+├── server/                     # Express & Prisma Backend ➔ [View Server README](./server/README.md)
 │   ├── src/
 │   ├── prisma/
 │   ├── api/
 │   ├── package.json
 │   ├── vercel.json
-│   └── .env.example
+│   └── README.md
 ├── .gitignore
 ├── package.json                # Root package.json with unified execution scripts
 └── README.md                   # Monorepo documentation & setup guide
